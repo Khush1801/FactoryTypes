@@ -1,0 +1,9 @@
+customerApp\Customer.class
+RemoteApp\ILogin.class
+RemoteApp\LoginFactory.class
+customerApp\UserApp.class
+customerApp\CustomerFactory.class
+customerApp\InvalidValueException.class
+customerApp\ICustomerApp.class
+customerApp\CustomerAppImpl.class
+customerApp\LoginApp.class

@@ -1,0 +1,7 @@
+customerApp\TestSuite.class
+customerApp\MockingDbConnections.class
+customerApp\TestMockedObj.class
+customerApp\CustomerTest.class
+customerApp\TestLogin.class
+customerApp\seleniumTest.class
+customerApp\DummyTest.class

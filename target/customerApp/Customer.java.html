@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Customer.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">mavendemo</a> &gt; <a href="index.source.html" class="el_package">customerApp</a> &gt; <span class="el_source">Customer.java</span></div><h1>Customer.java</h1><pre class="source lang-java linenums">package customerApp;
+
+<span class="fc" id="L3">public class Customer {</span>
+    private Long id;
+    private String fname;
+    private String lname;
+    private String email;
+    private int age;
+    private String gender;
+    private String location;
+
+    public Long getId() {
+<span class="nc" id="L13">        return id;</span>
+    }
+
+    public void setId(Long id) {
+<span class="nc" id="L17">        this.id = id;</span>
+<span class="nc" id="L18">    }</span>
+
+    public String getFname() {
+<span class="fc" id="L21">        return fname;</span>
+    }
+
+    public void setFname(String fname){
+<span class="pc bpc" id="L25" title="1 of 4 branches missed.">        if(fname == null || fname.length() &lt;= 2)</span>
+<span class="fc" id="L26">            throw new InvalidValueException();</span>
+<span class="fc" id="L27">        this.fname = fname;</span>
+<span class="fc" id="L28">    }</span>
+
+    public String getLname() {
+<span class="fc" id="L31">        return lname;</span>
+    }
+
+    public void setLname(String lname) {
+<span class="pc bpc" id="L35" title="1 of 4 branches missed.">        if(lname == null || lname.length() &lt;= 2)</span>
+<span class="fc" id="L36">            throw new InvalidValueException();</span>
+<span class="fc" id="L37">        this.lname = lname;</span>
+<span class="fc" id="L38">    }</span>
+
+    public String getEmail() {
+<span class="nc" id="L41">        return email;</span>
+    }
+
+    public void setEmail(String email) {
+<span class="nc" id="L45">        this.email = email;</span>
+<span class="nc" id="L46">    }</span>
+
+    public int getAge() {
+<span class="nc" id="L49">        return age;</span>
+    }
+
+    public void setAge(int age) {
+<span class="nc" id="L53">        this.age = age;</span>
+<span class="nc" id="L54">    }</span>
+
+    public String getGender() {
+<span class="nc" id="L57">        return gender;</span>
+    }
+
+    public void setGender(String gender) {
+<span class="nc" id="L61">        this.gender = gender;</span>
+<span class="nc" id="L62">    }</span>
+
+    public String getLocation() {
+<span class="nc" id="L65">        return location;</span>
+    }
+
+    public void setLocation(String location) {
+<span class="nc" id="L69">        this.location = location;</span>
+<span class="nc" id="L70">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+mavendemo,customerApp,InvalidValueException,0,3,0,0,0,1,0,1,0,1
+mavendemo,customerApp,LoginApp,5,20,2,2,1,7,2,2,0,2
+mavendemo,customerApp,Customer,35,37,2,6,15,11,12,7,10,5
+mavendemo,customerApp,CustomerFactory,7,0,0,0,2,0,2,0,2,0
+mavendemo,customerApp,UserApp,5,0,0,0,2,0,2,0,2,0
+mavendemo,customerApp,CustomerAppImpl,15,0,0,0,4,0,2,0,2,0
+mavendemo,RemoteApp,LoginFactory,5,0,0,0,2,0,2,0,2,0
